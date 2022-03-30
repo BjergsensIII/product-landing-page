@@ -56,6 +56,8 @@ header {
     align-items: center;
     width: 100%;
     margin-left: 20px;
+    font-size: 40px;
+    color: #eee;
 
 }
 #header-img{
@@ -70,8 +72,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-grow: 3;
-  border:3px solid grey;
+  flex-grow: 5;
+  border:3px solid #970000;
+  background-color: #970000;
+  border-radius: 0 0 20px 20px;
 }
 
 .logo {
@@ -87,4 +91,7 @@ ul{
 li{
     margin: 10px;
 }
-
+.nav-link{
+  color: #eee;
+  font-size: 25px;
+}
