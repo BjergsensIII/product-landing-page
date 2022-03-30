@@ -1,2 +1,2 @@
-# tribute-page
-freecodecamp tribute-page
+# product-landing-page
+freecodecamp product-landing-page
