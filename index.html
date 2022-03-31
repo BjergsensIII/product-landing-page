@@ -17,7 +17,7 @@
     
   <div id="page-wrapper">
     <header id="header">
-      <div class="nav-bar">
+      <nav class="nav-bar">
         <div class="logo">
             <img
            id="header-img"
@@ -29,13 +29,27 @@
             </logo>
         </div>
         <ul>
-                <li><a class="nav-link" href="#features">Features</a></li>
-                <li><a class="nav-link" href="#podcast">Podcast</a></li>
-                <li><a class="nav-link" href="#pricing">Price</a></li>
+                <li><a class="nav-link" id="box" href="#features">Features</a></li>
+                <li><a class="nav-link" id="box" href="#podcast">Podcast</a></li>
+                <li><a class="nav-link" id="box" href="#pricing">Price</a></li>
         </ul>
-        
+      </nav>  
       
     
     </header>
   </div>
+  
+  <section id="hero">
+    <h2>Nifty Nuggets, the discord alpha group that everyone wants to get it</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
 </body>
